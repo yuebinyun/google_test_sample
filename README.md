@@ -1,4 +1,4 @@
-## Googletest Samples 学习
+## GoogleTest Samples 学习
 
 ```bash
 mkdir -p build && cd build && cmake .. && make
