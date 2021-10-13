@@ -61,5 +61,11 @@ target_link_libraries(sample6_test gtest_main)
 gtest_discover_tests(sample6_test)
 # --- ------------- ------------------------------------------------------------
 
+# --- sample7_test ------------------------------------------------------------
+add_executable(sample7_test sample7_unittest.cpp)
+target_link_libraries(sample7_test gtest_main)
+gtest_discover_tests(sample7_test)
+# --- ------------- ------------------------------------------------------------
+
 
 
