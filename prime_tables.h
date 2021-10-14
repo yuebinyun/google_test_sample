@@ -61,7 +61,7 @@ private:
         is_prime_[0] = is_prime_[1] = false;
         for (int i = 2; i * i <= max; i += i % 2 + 1) {
             if (!is_prime_[i]) continue;
-            for (int j = i * i; j < max; j += i) {
+            for (int j = i * i; j <= max; j += i) {
                 is_prime_[j] = false;
             }
         }
